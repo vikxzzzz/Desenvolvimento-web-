@@ -3,34 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Página para teste</title>
+    
+    <style>
+        .imagens {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
+    
+        .maior-letra {
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        .media-letra {
+            font-size: 14px;
+        }
+
+
+    </style>
+
 </head>
 <body>
-    <h1 id="meu-h1">H1</h1>
+    <h1 id="meu-h1">Página para o exercício 03</h1>
+    <hr>
     <p>Minha página web</p>
-    <p>Dois parágrafos diferentes</p>
-    <h2>Outro cabeçalho</h2>
-    <h3>H3</h3>
-    <h4>H4</h4>
-    <h5>H5</h5>
-    <h6>H6</h6>
-    <div><p>Essa e uma frase para testes</p></div>
-    <span><p>Outra frase para teste</p></span>
+    <p>Nome: Viktor Mayer Berruezo</p>
+    <hr>
+    
+    <h2>Hobbies</h2>
+    <hr>
     <ul>
-        <li>Um ítem</li>
-        <li>Outro ítem</li>
-        <li>Mais um item
+        <li class="maior-letra">Surfar</li>
+    </ul>
+    <div class="imagens">
+        <img src="midias/onda-bs.jpeg" alt="Imagem 1" width="600" height="400">
+        <img src="midias/gb-onda.jpg" alt="Imagem 2"  width="600" height="400">
+    </div>
+    <hr>
+    
+    <ul>
+        <li class="maior-letra">Volei</li>
+    </ul>
+    <div class="imagens">
+        <img src="midias/COMEMORANDO HTML.jpg" alt="Imagem 3" width="600" height="400">
+        <img src="midias/dfsdfsdfsdfsdfs.jpeg" alt="Imagem 4"  width="600" height="400">
+    </div>
+    <hr>
+
+
+
+    
+    <span><ul>
+        <li class="maior-letra">Jogos</li>
+    </ul></span>
+    <ul>
+        <p class="media-letra">PC:</p>
             <ol>
-                <li>Primeiro item</li>
-                <li>Segundo item</li>
+                <li>Rainbow six siege</li>
+                <li>Valorant</li>
+                <li>NBA 2k</li>
             </ol>
-        </li>
+        <p class="media-letra">XBOX ONE:</p>
+            <ol>
+                <li>Rainbow six siege</li>
+                <li>Fortnite</li>
+            </ol>    
+        
     </ul>
     <hr>
     <dl>
         <d t >Notebook</d t >
-            <dd>Mobilidade </dd>
-            <dd> Conforto </dd>
+            <dd>Mobilidade</dd>
+            <dd>Conforto</dd>
         <d t >Desktop</d t >
             <dd>Desempenho</dd>
     </dl>
@@ -48,11 +96,11 @@ chopp           R$ 12,00
         <li>Um link</li>
         <li>Outro link</li>
     </menu>
-    <a href="https://hardcore.com.br/wp-content/uploads/sites/21/2020/12/wavedscf4736pipemasters20keoki-696x464.jpeg">Link para a onda</a>
+    <a href="https://github.com/vikxzzzz">Link para meu GitHub</a>
     <p>Lorem ipsum <strong> dolor</strong> sit amet, consectetur adipisicing elit. Eveniet eligendi, harum laudantium vero quos quasi ipsa quam fugit debitis, quo, inventore earum ipsam enim maiores saepe suscipit quibusdam iusto sequi.</p>
     <audio controls src="midias/light-my-fire.mp3"></audio>
-    <img src="midias/imagem- teste.jpg">
-    <a href="#meu-h1">Voltar</a>
+    
+    
     
     <form method="post">
         <input type="text" name="nome">
@@ -76,11 +124,14 @@ chopp           R$ 12,00
     <pre>
 
 
-
-
     </pre>
+    <hr>
 
-    <video controls src="/doguinho.mp4"></video>
+    <video width="640" height="360" controls>
+        <source src="midias/doguinho.mp4">
+    </video>
+    
+    <a href="#meu-h1">Voltar para o início da página</a>
 
 
 </body>
