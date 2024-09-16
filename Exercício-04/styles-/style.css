@@ -1,0 +1,15 @@
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.maior-letra {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.media-letra {
+    font-size: 14px;
+}
