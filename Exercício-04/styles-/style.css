@@ -13,3 +13,12 @@
 .media-letra {
     font-size: 14px;
 }
+
+
+.div-fundo {
+    width: 1510px;  /* Largura mínima */
+    height: 200px; /* Altura mínima */
+    background-color: #3498db; /* Cor de fundo (azul claro) */
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
