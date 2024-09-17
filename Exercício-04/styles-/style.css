@@ -1,3 +1,8 @@
+html { 
+    font-family: "Roboto", sans-serif;
+}
+
+
 .imagens {
     display: flex;
     justify-content: center;
@@ -16,11 +21,26 @@
 
 
 .div-fundo {
-    width: 1510px;  
-    height: 200px; 
+    width: 100px;  
+    height: 110px; 
     background-color: #3498db; 
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
 }
 
+.div-relativa {
+    width: 50%;
+    height: 10vh;
+    background-color: rgb(0, 195, 255);
+}
+
+.span { 
+    color: red;
+    background-color: rgb(0, 195, 255);
+    font-weight: 700;
+
+}
 
 .titulo {
     font-size: 26px;
