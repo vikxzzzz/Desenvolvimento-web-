@@ -1,0 +1,100 @@
+Gabarito folha de exercícos de Desenvolvimento web 
+
+1) Mantém salvo um histórivo de alterações no código,  
+
+
+2) O github é uma empresa que oferece como um sistema de rede social e o git é um software de versionamento normal
+
+
+3) HTML -> É uma linguagem que marca semanticamente o conteúdo e também o organiza 
+CSS -> layout, interface
+JavaScript -> interatividade com o usuário e também banco de dados 
+
+
+4) Tag são os comandos da linguagem (as palavras chaves), 
+os elementos são os componentes de um documento HTML,
+atributos são as características de um elemento, como se fossem adjetivos
+
+
+5) 
+<!DOCTYPE html>
+<head>
+     <title> Minha página </title>
+     <meta charset = "utf-8">
+</head>
+<body>
+     <p>Estou por aqui</p>
+</body>
+</html>
+
+
+6) A pilha de protocolos é composta por camadas conforme seu nível de abstração que servem como comandos para como os dados vão ser transmitidos e recebidos, 
+além disso eles estão em pilhas pois cada camada presta serviço da camada superior
+
+
+7) TCP -> é orientado a conexão, entrga de dados garantida 
+UDP -> Não é orientado a conexão, não garente a entrega dos dados e na maioria das vezes e mais rápida 
+
+
+8) Os clientes não se comunicam, so a partir do servidor
+P2P -> Os clientes se comunicam 
+
+9) Processo é um programa rodando no computador, identificamos o processo por meio do número da porta 
+
+10) É uma camada de que oferece segurança para as camadas de transporte TCP/UDP
+
+11) Dois filhos, não há limite, pois você pode fazer varios descendentes dentro do body
+
+12) footer -> indica o rodapé 
+h1 ate h6 -> cabeçalhos de vários níveis 
+p -> parágrafos 
+div -> conteiner genérico 
+span -> conteiner de linha genérico 
+
+a -> 
+
+
+
+
+
+
+13) Form, captura elementos do usuário 
+
+14) a , que cria os hiperlinks (href = atributo do a) 
+
+15) input, text area, button select, label , fieldset, option (explicar o que cada um faz) 
+
+16) 
+class -> determina qual conjunto ou conjuntos que o elemento pertence
+id -> é o identificador exclusivo 
+name -> recebe o valor do conteúdo do elemento 
+hidden -> esconde elementos que o usuário não precisa ver 
+style -> atributo que pode reber css
+title -> colocar mai informações á um conteúdo 
+
+17) É uma característica/filosofia da web de perder elementos e ainda entregar informções
+
+18) regra -> estrutura composta por um seletor e um conjunto de declarações separada por ponto e vírgula
+seletor -> define os elementos que é aplicado a regra 
+declaração -> É um par formado por uma propriedade CSS e um valor  
+
+ 
+19) "seletor de classe" -> seleciona todos os elementos daquela classe 
+"seletor de ids" -> seleciona o elmento com aquele id
+
+20) margin - O espaço externo a um elemento.
+border - A linha sólida do lado de fora do padding.
+padding - O espaço ao redor do conteúdo (ex.: ao redor do
+texto de um parágrafo)
+
+
+21) static - posicionamento padrão.
+relative - movimentação em relação a posição padrão
+absolute - retira o elemento do fluxo normal e o posiciona relativamente ao documento
+fixed - retira o elemento do fluxo normal e o posiciona relativamente a viewport
+
+
+
+ 
+
+
