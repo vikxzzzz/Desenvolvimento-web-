@@ -1,0 +1,12 @@
+#container {
+    display: grid;
+    gap: 5px;
+}
+
+#container > div {
+    background-color: aqua;
+    height: 10rem;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
