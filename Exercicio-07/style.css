@@ -1,7 +1,9 @@
 #container {
     display: grid;
     gap: 5px;
+    
 }
+
 
 #container > div {
     background-color: aqua;
