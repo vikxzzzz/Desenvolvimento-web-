@@ -7,7 +7,7 @@
         const descri = document.createElement("p"); 
 
         nome.innerHTML = atleta.nome;
-        nome.style.fontFamily = "s"
+        nome.style.fontFamily = "sans-serif"
         cartao.appendChild(nome); 
 
         imagem.src = atleta.imagem; 
