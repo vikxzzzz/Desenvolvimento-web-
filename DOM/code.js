@@ -1,4 +1,4 @@
-const url = "https://botafogo-atletas.mange.li/2024-1/"
+const url = "https://botafogo-atletas.mange.li/2024-1/";
 
 const pega_json = async (caminho) => {
     const resposta = await fetch(caminho);
@@ -13,6 +13,7 @@ const montaCard = (atleta) => {
     const nome = document.createElement("h1");
     const imagem = document.createElement("img");
     const descri = document.createElement("p");
+    const link = document.createElement("a");
 
     nome.innerHTML = atleta.nome;
     nome.style.fontFamily = "sans-serif"
@@ -23,6 +24,10 @@ const montaCard = (atleta) => {
 
     descri.innerHTML = atleta.detalhes;
     cartao.appendChild(descri);
+
+    link.innerText = 'Saiba mais...'; 
+    link.href = `detalhes.html?id=${atleta.id}`;
+    cartao.appendChild(link);
 
     return cartao
 }
