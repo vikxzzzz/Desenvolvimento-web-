@@ -7,8 +7,6 @@ const pega_json = async (caminho) => {
     return dados;
 }
 
-
-
 const montaPagina = (dados) => {
     const body = document.body;
     body.innerHTML= ''
