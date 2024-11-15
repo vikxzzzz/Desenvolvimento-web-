@@ -2,7 +2,7 @@ PYTHON
 https://www.python.org/
 https://docs.python.org/pt-br/3/library/
 
--> Pontos relacionados: 4, 5, 6, 7, 9
+-> Pontos relacionados: 4, 5, 6, 7, 8, 9
 
 
 GIT
